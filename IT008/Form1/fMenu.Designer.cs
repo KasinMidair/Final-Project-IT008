@@ -44,6 +44,7 @@
             this.buttonPLAY.TabIndex = 0;
             this.buttonPLAY.Text = "PLAY";
             this.buttonPLAY.UseVisualStyleBackColor = true;
+            this.buttonPLAY.Click += new System.EventHandler(this.buttonPLAY_Click);
             // 
             // buttonSETTING
             // 

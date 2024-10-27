@@ -22,5 +22,11 @@ namespace Form1
             var formSetting = new fSetting();
             formSetting.Show();
         }
+
+        private void buttonPLAY_Click(object sender, EventArgs e)
+        {
+            var formPlayer = new Player();
+            formPlayer.Show();
+        }
     }
 }
