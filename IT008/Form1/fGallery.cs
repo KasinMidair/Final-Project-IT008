@@ -4,23 +4,28 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Form1
 {
-    public partial class fSetting : Form
+    public partial class fGallery : Form
     {
-        public fSetting()
+        public fGallery()
         {
             InitializeComponent();
         }
 
-        private void checkBoxBackgroundMusic_CheckedChanged(object sender, EventArgs e)
+        private void buttonBACK_Click(object sender, EventArgs e)
         {
+            Close();
+        }
 
+        private void buttonADDIMAGE_Click(object sender, EventArgs e)
+        {
+            var formAddimage = new fAddImage();
+            formAddimage.Show();
         }
     }
 }

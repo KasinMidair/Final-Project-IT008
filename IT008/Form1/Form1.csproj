@@ -53,6 +53,18 @@
     <Compile Include="EnterName.Designer.cs">
       <DependentUpon>EnterName.cs</DependentUpon>
     </Compile>
+    <Compile Include="fAddImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAddImage.Designer.cs">
+      <DependentUpon>fAddImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fGallery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fGallery.Designer.cs">
+      <DependentUpon>fGallery.cs</DependentUpon>
+    </Compile>
     <Compile Include="fMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +97,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="EnterName.resx">
       <DependentUpon>EnterName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAddImage.resx">
+      <DependentUpon>fAddImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fGallery.resx">
+      <DependentUpon>fGallery.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fMenu.resx">
       <DependentUpon>fMenu.cs</DependentUpon>
@@ -119,6 +137,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\image\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

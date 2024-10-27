@@ -28,5 +28,16 @@ namespace Form1
             var formPlayer = new Player();
             formPlayer.Show();
         }
+
+        private void buttonGALLERY_Click(object sender, EventArgs e)
+        {
+            var formGallery = new fGallery();
+            formGallery.Show();
+        }
+
+        private void buttonQUIT_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

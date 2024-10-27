@@ -66,6 +66,7 @@
             this.buttonGALLERY.TabIndex = 2;
             this.buttonGALLERY.Text = "GALLERY";
             this.buttonGALLERY.UseVisualStyleBackColor = true;
+            this.buttonGALLERY.Click += new System.EventHandler(this.buttonGALLERY_Click);
             // 
             // buttonQUIT
             // 
@@ -76,6 +77,7 @@
             this.buttonQUIT.TabIndex = 3;
             this.buttonQUIT.Text = "QUIT";
             this.buttonQUIT.UseVisualStyleBackColor = true;
+            this.buttonQUIT.Click += new System.EventHandler(this.buttonQUIT_Click);
             // 
             // buttonACHIVEMENT
             // 

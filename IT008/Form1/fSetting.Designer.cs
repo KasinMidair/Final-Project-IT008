@@ -34,8 +34,10 @@
             // checkBoxBackgroundMusic
             // 
             this.checkBoxBackgroundMusic.AutoSize = true;
+            this.checkBoxBackgroundMusic.Checked = true;
+            this.checkBoxBackgroundMusic.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxBackgroundMusic.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.checkBoxBackgroundMusic.Location = new System.Drawing.Point(149, 194);
+            this.checkBoxBackgroundMusic.Location = new System.Drawing.Point(168, 157);
             this.checkBoxBackgroundMusic.Name = "checkBoxBackgroundMusic";
             this.checkBoxBackgroundMusic.Size = new System.Drawing.Size(376, 50);
             this.checkBoxBackgroundMusic.TabIndex = 0;
