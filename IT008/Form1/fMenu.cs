@@ -37,7 +37,7 @@ namespace Form1
 
         private void buttonQUIT_Click(object sender, EventArgs e)
         {
-            
+            Close();
         }
     }
 }
