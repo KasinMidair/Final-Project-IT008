@@ -25,6 +25,7 @@ namespace Form1
 
         private void buttonPLAY_Click(object sender, EventArgs e)
         {
+
             var formPlayer = new Player();
             formPlayer.Show();
         }
@@ -38,6 +39,14 @@ namespace Form1
         private void buttonQUIT_Click(object sender, EventArgs e)
         {
             Close();
+
+
+
+        }
+
+        private void fMenu_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameRound.cs" />
     <Compile Include="EnterName.cs">
       <SubType>Form</SubType>
     </Compile>
