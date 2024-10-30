@@ -36,7 +36,7 @@ namespace Form1
 
         private void buttonADD_Click(object sender, EventArgs e)
         {
-            File.Copy(textBox1.Text, Path.Combine("F:\\School\\IT008\\Final-Project-IT008\\IT008\\Form1\\Resources\\image\\", Path.GetFileName(textBox1.Text)), true);
+            File.Copy(textBox1.Text, Path.Combine("D:\\Final-Project-IT008\\IT008\\Form1\\Resources\\image\\", Path.GetFileName(textBox1.Text)), true);
             MessageBox.Show("Image Added");
         }
     }
