@@ -87,6 +87,6 @@ namespace Form1
         public int CurrentImgIndex()
         {
             return xIndex * GameManager.Instance.col + yIndex;
- }
+        }
     }
 }
